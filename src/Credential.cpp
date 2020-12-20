@@ -78,6 +78,7 @@ namespace
     QString keyNameNoUsername(const Credential& credentials)
     {
         QString result;
+
         if(!credentials.protocol.isEmpty())
         {
             result += credentials.protocol + "://";
