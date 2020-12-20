@@ -1,7 +1,42 @@
-BasedOnStyle: LLVM
-PointerBindsToType: true
-AlwaysBreakTemplateDeclarations: true
-AllowShortFunctionsOnASingleLine: false
-AllowShortIfStatementsOnASingleLine: false
-AllowShortLoopsOnASingleLine: false
+Language: Cpp
+BasedOnStyle: Mozilla
+
+AlignConsecutiveMacros: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakTemplateDeclarations: Yes
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterExternBlock: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+
+  BeforeCatch: true
+  BeforeElse: true
+
+  IndentBraces: false
+
+  SplitEmptyFunction: false
+  SplitEmptyNamespace: false
+  SplitEmptyRecord: false
+
 ColumnLimit: 120
+
+MaxEmptyLinesToKeep: 3
+NamespaceIndentation: All
+
+
+IndentWidth: 4
+
+SpaceAfterTemplateKeyword: true
+SpaceBeforeCpp11BracedList: true
+SpacesInAngles: true
