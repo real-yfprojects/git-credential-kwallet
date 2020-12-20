@@ -1,5 +1,6 @@
 # git-credential-kwallet
-[![Build Status](https://travis-ci.com/Templar-von-Midgard/git-credential-kwallet.svg?branch=master)](https://travis-ci.com/Templar-von-Midgard/git-credential-kwallet)
+
+**This Project has been forked from [Templar-von-Midgard](https://github.com/Templar-von-Midgard/git-credential-kwallet) to improve upon the work.**
 
 Git credential helper for KWallet
 

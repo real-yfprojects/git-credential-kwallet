@@ -1,10 +1,6 @@
 #ifndef CREDENTIAL_HPP
 #define CREDENTIAL_HPP
 
-#include <cstdio>
-
-#include <map>
-
 #include <QString>
 
 struct Credential {
