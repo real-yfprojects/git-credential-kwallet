@@ -16,7 +16,10 @@ sudo cmake --build . --target install
 
 ## Usage
 Configure as:
+```bash
+git config --global credentials.helper "kwallet --wallet kdewallet --folder git-credentials"
 ```
-git config credentials.helper "kwallet"
-```
-See also [gitcredentials](https://git-scm.com/docs/gitcredentials).
+You can replace `kdewallet` with your wallet and `git-credentials` with your folder name of choice.
+The folder will automatically be created. You can remove the `--global` switch if you want to configure the helper only for the current git repository.
+
+See also [gitcredentials](https://git-scm.com/docs/gitcredentials) and [git-credential](https://git-scm.com/docs/git-credential).
