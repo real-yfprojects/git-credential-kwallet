@@ -1,8 +1,5 @@
 # git-credential-kwallet
 
-**This Project has been forked from [Templar-von-Midgard](https://github.com/Templar-von-Midgard/git-credential-kwallet) to improve upon the work.** <br>
-**This Project has been forked from [dasbaumwolltier](https://github.com/dasbaumwolltier/git-credential-kwallet) to improve upon the work.**
-
 Git credential helper for KWallet
 
 ## Dependencies
